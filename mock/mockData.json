@@ -1,0 +1,186 @@
+{
+  "business": [
+    {
+      "id": "12dfasdsafsff12",
+      "title": "如何使用图书馆图书流通车？"
+    },
+    {
+      "id": "56fasfdfasdff",
+      "title": "读者身份改变了，需要重新办理大连图书馆读者证吗？"
+    },
+    {
+      "id": "253fasfasfdasdfa",
+      "title": "如何办理读者证押金退还手续？"
+    },
+    {
+      "id": "ssdfa",
+      "title": "可以替别人还书吗？"
+    }
+  ],
+  "storage": [
+    {
+      "id": "546",
+      "title": "如何使用大连图书馆的数据资源？"
+    },
+    {
+      "id": "dfas",
+      "title": "图书馆开馆时间？"
+    },
+    {
+      "id": "dsa",
+      "title": "怎样办理借书证？"
+    },
+    {
+      "id": "dfasjalsdjf",
+      "title": "工具书在哪里查阅？"
+    }
+  ],
+  "news": [
+    {
+      "id": "saa3452",
+      "title": "大连图书馆音乐图书馆有哪些资料？"
+    },
+    {
+      "id": "df1as",
+      "title": "如何查找学位论文？"
+    },
+    {
+      "id": "dsfaasdfa",
+      "title": "如何查找国内外标准？"
+    },
+    {
+      "id": "4153132131231",
+      "title": "发现借还记录与实际情况不符，怎么办？"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "123123",
+      "title": "图书馆法的作用是什么"
+    },
+    {
+      "id": "sdf123",
+      "title": "目前我国图书馆界普遍采用的图书分类"
+    },
+    {
+      "id": "s2d3dc",
+      "title": "政府设立的各级公共图书馆包括哪些"
+    },
+    {
+      "id": "s2d3dc",
+      "title": "公共图书馆收集、整理、保存的文献信息包括哪些？"
+    }
+  ],
+  "literature": [
+    {
+      "id": "45afdas",
+      "title": "会计行业下载最多的论文"
+    },
+    {
+      "id": "246afdasdf",
+      "title": "人工智能相关的硕士论文"
+    },
+    {
+      "id": "64fa6sdfas",
+      "title": "东南大学关于大数据的论文"
+    },
+    {
+      "id": "123dfafasdf2",
+      "title": "施一公最新发表的论文"
+    }
+  ],
+  "knowledge":[
+    {
+      "id": "asdfas546",
+      "title": "甲醛对人体的危害表现"
+    },
+    {
+      "id": "fdsafas121",
+      "title": "台风为什么会被除名"
+    },
+    {
+      "id": "fasdfas8597",
+      "title": "端午节有哪些习俗"
+    },
+    {
+      "id":"kdsaflasdlfasdflas",
+      "title": "民事行为能力的定义"
+    }
+  ],
+  "libraryStorage": [
+    { "id": "l1",
+      "location": "东北大学图书馆",
+      "status": true,
+      "outTime": "2018-12-1",
+      "backTime": "2018-12-5"
+    },
+    {
+      "id": "l2",
+      "location": "东北大学图书馆",
+      "status": false,
+      "outTime": "2018-12-3",
+      "backTime": null
+    },
+    {
+      "id": "l3",
+      "location": "东北大学图书馆",
+      "status": true,
+      "outTime": "2018-12-1",
+      "backTime": "2018-12-21"
+    },
+    {
+      "id": "l4",
+      "location": "东北大学图书馆",
+      "status": false,
+      "outTime": "2018-12-15",
+      "backTime": null
+    }
+
+  ],
+  "handleOl": [
+    {
+      "id": "ho1",
+      "title":"我的图书馆",
+      "src":"http://www.libopac.seu.edu.cn:8080/reader/"
+    },
+    {
+      "id": "ho2",
+      "title":"个人借阅信息查询",
+      "src":"http://www.libopac.seu.edu.cn:8080/reader/"
+    },
+    {
+      "id": "ho3",
+      "title":"图书预约",
+      "src":"http://www.libopac.seu.edu.cn:8080/reader/"
+    },
+    {
+      "id": "ho4",
+      "title":"图书续借",
+      "src":"http://www.libopac.seu.edu.cn:8080/reader/"
+    }
+  ],
+  "eduJob": [
+    {
+    "id":"ej1",
+    "title":"本科历年录取分数线",
+    "src":"http://zs.neu.edu.cn/html/lqfs/lqfslist.html"
+    },
+    {
+      "id":"ej2",
+      "title":"硕士招生信息",
+      "src":"http://www.graduate.neu.edu.cn/dongda/qgtk/index.jhtml"
+    },
+    {
+      "id":"ej3",
+      "title":"博士招生信息",
+      "src":"http://www.graduate.neu.edu.cn/dongda/bszs/index.jhtml"
+    },
+    {
+      "id":"ej4",
+      "title":"企业招聘信息",
+      "src":"http://jobneu.jysd.com/teachin"
+    }
+
+  ]
+
+}

@@ -1,0 +1,127 @@
+.Layout {
+  min-height: 100vh;
+  .Header {
+    background: url(../assets/bg.png) no-repeat;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    .backhome {
+      position: absolute;
+      width: 400px;
+      height: 160px;
+      top: 0;
+      left: 0;
+      cursor: pointer;
+    }
+    .weather-wrap {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      height: 30px;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .weather {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      height: 30px;
+      width: 100%;
+      justify-content: flex-end;
+      align-items: center;
+      color: #fff;
+      animation: fadeup 6s ease-in-out 0s infinite;
+      @keyframes fadeup {
+        0% {
+          transform: translateY(30px);
+        }
+        10% {
+          transform: translateY(0);
+        }
+
+        90% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-30px);
+        }
+      }
+      .location {
+        padding-right: 20px;
+      }
+      .detail {
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .tempreture {
+        padding-right: 20px;
+      }
+    }
+    .logo {
+      font-size: 3rem;
+      font-family: '微软雅黑';
+      font-weight: 600;
+      color: rgba(255, 255, 255, 1);
+      letter-spacing: 2px;
+      margin: 120px auto;
+      position: relative;
+      overflow: hidden;
+      .texty {
+        -webkit-animation: toggle 10s 0s linear infinite;
+        -moz-animation: toggle 10s 0s linear infinite;
+        animation: toggle 10s 0s linear infinite;
+        height: 60px;
+        overflow: hidden;
+        @keyframes toggle {
+          0%,
+          100% {
+            width: 0;
+            opacity: 0;
+          }
+          10% {
+            width: 100%;
+            opacity: 1;
+          }
+          92% {
+            width: 100%;
+            opacity: 1;
+          }
+          98%{
+            opacity: 1;
+          }
+          
+        }
+      }
+
+      .Content {
+        flex: 1;
+      }
+    }
+  }
+  .Footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 0 1 74px;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+    color: #a4acb7;
+    font-size: 18px;
+    background: #1c2b40;
+  }
+  .ant-back-top {
+    bottom: 80px;
+  }
+  .ant-back-top-content {
+    background-color: #1088e9;
+  }
+}
